@@ -1,0 +1,103 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #0077cc;
+  color: #fff;
+}
+
+header img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-size: 1.2rem;
+}
+
+/* Main section */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+aside {
+  flex: 1 1 200px;
+  margin-right: 20px;
+}
+
+article {
+  flex: 2 1 500px;
+}
+
+article h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+article h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
